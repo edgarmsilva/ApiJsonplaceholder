@@ -5,13 +5,49 @@
       {
         "name": "that I search for the username \"Delphine\" to get its id",
         "aggregatedDurations": {
-          "median": 1.1396596,
-          "average": 1.1396596
+          "median": 1.0791513,
+          "average": 1.0791513
         },
         "durations": [
           {
-            "duration": 1.1396596,
+            "duration": 1.0791513,
             "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I use the id fetched to search for the posts written by the user",
+    "steps": [
+      {
+        "name": "I use the id fetched to search for the posts written by the user",
+        "aggregatedDurations": {
+          "median": 0.1170044,
+          "average": 0.1170044
+        },
+        "durations": [
+          {
+            "duration": 0.1170044,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate if the emails in the comment section are in the proper format",
+    "steps": [
+      {
+        "name": "I validate if the emails in the comment section are in the proper format",
+        "aggregatedDurations": {
+          "median": 0.5920329,
+          "average": 0.5920329
+        },
+        "durations": [
+          {
+            "duration": 0.5920329,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:6"
           }
         ]
       }
