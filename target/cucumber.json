@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-01T18:56:47.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 495003300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "validate if the emails properly formatted",
+        "description": "",
+        "id": "validate-the-api-jsonplaceholder;validate-if-the-emails-properly-formatted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1139659600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "that I search for the username \"Delphine\" to get its id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delphine\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.that_i_search_for_the_username(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I use the id fetched to search for the posts written by the user",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I validate if the emails in the comment section are in the proper format",
+            "match": {
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_validate_if_the_emails_in_the_comment_section_are_in_the_proper_format()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the API Jsonplaceholder",
+    "description": "",
+    "id": "validate-the-api-jsonplaceholder",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/APIJsonplaceholder.feature",
+    "tags": []
+  }
+]

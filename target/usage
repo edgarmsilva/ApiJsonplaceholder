@@ -1,0 +1,20 @@
+[
+  {
+    "source": "that I search for the username {string} to get its id",
+    "steps": [
+      {
+        "name": "that I search for the username \"Delphine\" to get its id",
+        "aggregatedDurations": {
+          "median": 1.1396596,
+          "average": 1.1396596
+        },
+        "durations": [
+          {
+            "duration": 1.1396596,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]
