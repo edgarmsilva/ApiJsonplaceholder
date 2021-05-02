@@ -9,9 +9,8 @@ workflows:
       - maven/test
 
 steps:
-  -
   - run:
-      - name: Running API JsonPlaceholder Automation Tests
+      - Description: Running API JsonPlaceholder Automation Tests
       - command: |
         mkdir /tmp/artifacts;
         mvn test
