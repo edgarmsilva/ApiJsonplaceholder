@@ -10,15 +10,10 @@ workflows:
 
 steps:
   - run:
-      - Description: Running API JsonPlaceholder Automation Tests
-      - command: |
-        mkdir /tmp/artifacts;
+      - name: Running API JsonPlaceholder Automation Tests
+      - command |
         mvn test
 
-
   - store_artifacts:
-      path: /tmp/artifacts
-      destination: ApiJsonplaceholder
-
-  - store_artifacts:
-      path: /tmp/artifacts
+      path: target/cucumber-reports/Cucumber.xml
+      destination: Cucumber.xml
