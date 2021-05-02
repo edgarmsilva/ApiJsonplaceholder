@@ -1,6 +1,7 @@
 Feature: Validate the API Jsonplaceholder
   Validate the comments for the post made by a specific user.
 
+  @testes
   Scenario: validate if the emails in the comments are properly formatted
     Given that I search for the username "Delphine"
     When I use the id fetched to search for the posts written by the user

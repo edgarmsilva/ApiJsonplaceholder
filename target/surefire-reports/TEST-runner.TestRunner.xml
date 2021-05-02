@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="runner.TestRunner" time="1.706" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="runner.TestRunner" time="1.945" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="-tags @testes"/>
     <property name="java.vm.version" value="13+33"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin"/>
     <property name="maven.multiModuleProjectDirectory" value="D:\Edgar\estudos\APIJsonPlaceholder"/>
@@ -43,7 +44,7 @@
     <property name="java.class.path" value="D:\tools\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=-tags @testes"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-13"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,5 +61,8 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Validate the API Jsonplaceholder" name="validate if the emails properly formatted" time="1.706"/>
+  <testcase classname="Validate the API Jsonplaceholder" name="validate if the emails in the comments are properly formatted" time="1.746"/>
+  <testcase classname="Validate the API Jsonplaceholder" name="validate the username search by an inexistent user" time="0.069"/>
+  <testcase classname="Validate the API Jsonplaceholder" name="validate the post search by an inexistent user id" time="0.057"/>
+  <testcase classname="Validate the API Jsonplaceholder" name="validate the post comment search by an inexistent post id" time="0.073"/>
 </testsuite>

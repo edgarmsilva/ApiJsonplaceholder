@@ -13,6 +13,7 @@ import org.junit.runner.RunWith;
         , glue = {"stepDefinitions"}
         , monochrome = false
         , publish = false
+//        , tags = "@test"
 )
 
 public class TestRunner {

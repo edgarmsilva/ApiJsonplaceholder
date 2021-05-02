@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-02T18:29:07.821Z",
+        "start_timestamp": "2021-05-02T18:54:07.819Z",
         "before": [
           {
             "result": {
-              "duration": 446726500,
+              "duration": 428962600,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
             }
           }
         ],
-        "line": 4,
+        "line": 5,
         "name": "validate if the emails in the comments are properly formatted",
         "description": "",
         "id": "validate-the-api-jsonplaceholder;validate-if-the-emails-in-the-comments-are-properly-formatted",
@@ -24,10 +24,10 @@
         "steps": [
           {
             "result": {
-              "duration": 989413900,
+              "duration": 1030819000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "that I search for the username \"Delphine\"",
             "match": {
               "arguments": [
@@ -42,10 +42,10 @@
           },
           {
             "result": {
-              "duration": 87557200,
+              "duration": 76964500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I use the id fetched to search for the posts written by the user",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_use_the_id_fetched_to_search_for_the_posts_written_by_the_user()"
@@ -54,20 +54,25 @@
           },
           {
             "result": {
-              "duration": 74278100,
+              "duration": 76461600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I validate if the emails in the comment section are in the proper format",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_validate_if_the_emails_in_the_comment_section_are_in_the_proper_format()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@testes"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-05-02T18:29:09.489Z",
+        "start_timestamp": "2021-05-02T18:54:09.483Z",
         "before": [
           {
             "result": {
@@ -78,7 +83,7 @@
             }
           }
         ],
-        "line": 9,
+        "line": 10,
         "name": "validate the username search by an inexistent user",
         "description": "",
         "id": "validate-the-api-jsonplaceholder;validate-the-username-search-by-an-inexistent-user",
@@ -87,10 +92,10 @@
         "steps": [
           {
             "result": {
-              "duration": 60988300,
+              "duration": 63547300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I search for a inexistent username \"inexistentUser\"",
             "match": {
               "arguments": [
@@ -107,7 +112,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I receive an empty body response",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_receive_an_empty_body()"
@@ -117,11 +122,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-02T18:29:09.556Z",
+        "start_timestamp": "2021-05-02T18:54:09.551Z",
         "before": [
           {
             "result": {
-              "duration": 1001500,
+              "duration": 1000500,
               "status": "passed"
             },
             "match": {
@@ -129,7 +134,7 @@
             }
           }
         ],
-        "line": 35,
+        "line": 14,
         "name": "validate the post search by an inexistent user id",
         "description": "",
         "id": "validate-the-api-jsonplaceholder;validate-the-post-search-by-an-inexistent-user-id",
@@ -138,10 +143,10 @@
         "steps": [
           {
             "result": {
-              "duration": 83636400,
+              "duration": 51518100,
               "status": "passed"
             },
-            "line": 36,
+            "line": 15,
             "name": "I use an inexistent user id to search for the posts",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_use_an_inexistent_user_id_to_search_for_the_posts()"
@@ -152,7 +157,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 37,
+            "line": 16,
             "name": "I receive an empty body response",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_receive_an_empty_body()"
@@ -162,7 +167,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-02T18:29:09.645Z",
+        "start_timestamp": "2021-05-02T18:54:09.609Z",
         "before": [
           {
             "result": {
@@ -173,7 +178,7 @@
             }
           }
         ],
-        "line": 47,
+        "line": 18,
         "name": "validate the post comment search by an inexistent post id",
         "description": "",
         "id": "validate-the-api-jsonplaceholder;validate-the-post-comment-search-by-an-inexistent-post-id",
@@ -182,10 +187,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1161972900,
+              "duration": 68118400,
               "status": "passed"
             },
-            "line": 48,
+            "line": 19,
             "name": "I use an inexistent post id to search for the posts comments",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_use_an_inexistent_post_id_to_search_for_the_posts_comments()"
@@ -194,10 +199,9 @@
           },
           {
             "result": {
-              "duration": 999500,
               "status": "passed"
             },
-            "line": 49,
+            "line": 20,
             "name": "I receive an empty body response",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_receive_an_empty_body()"
