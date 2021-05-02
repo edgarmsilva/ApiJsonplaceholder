@@ -12,7 +12,7 @@ steps:
   -
   - run:
       - name: Running API JsonPlaceholder Automation Tests
-      - command: |
+      - command |
         mkdir /tmp/artifacts;
         mvn test
 
