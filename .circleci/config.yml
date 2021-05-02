@@ -10,5 +10,5 @@ workflows:
 jobs:
     steps:
       - run: mvn test
-      - store_artifacts:
+      - store_artifacs:
           path: target
