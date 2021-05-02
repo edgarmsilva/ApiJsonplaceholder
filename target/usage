@@ -1,17 +1,17 @@
 [
   {
-    "source": "that I search for the username {string} to get its id",
+    "source": "that I search for the username {string}",
     "steps": [
       {
-        "name": "that I search for the username \"Delphine\" to get its id",
+        "name": "that I search for the username \"Delphine\"",
         "aggregatedDurations": {
-          "median": 1.0291285,
-          "average": 1.0291285
+          "median": 0.9894139,
+          "average": 0.9894139
         },
         "durations": [
           {
-            "duration": 1.0291285,
-            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:4"
+            "duration": 0.9894139,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:5"
           }
         ]
       }
@@ -23,13 +23,13 @@
       {
         "name": "I use the id fetched to search for the posts written by the user",
         "aggregatedDurations": {
-          "median": 0.1084865,
-          "average": 0.1084865
+          "median": 0.0875572,
+          "average": 0.0875572
         },
         "durations": [
           {
-            "duration": 0.1084865,
-            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:5"
+            "duration": 0.0875572,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:6"
           }
         ]
       }
@@ -41,13 +41,93 @@
       {
         "name": "I validate if the emails in the comment section are in the proper format",
         "aggregatedDurations": {
+          "median": 0.0742781,
+          "average": 0.0742781
+        },
+        "durations": [
+          {
+            "duration": 0.0742781,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I search for a inexistent username {string}",
+    "steps": [
+      {
+        "name": "I search for a inexistent username \"inexistentUser\"",
+        "aggregatedDurations": {
+          "median": 0.0609883,
+          "average": 0.0609883
+        },
+        "durations": [
+          {
+            "duration": 0.0609883,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I receive an empty body response",
+    "steps": [
+      {
+        "name": "I receive an empty body response",
+        "aggregatedDurations": {
           "median": 0.0,
-          "average": 0.0
+          "average": 3.33166E-4
         },
         "durations": [
           {
             "duration": 0.0,
-            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:6"
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:11"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:37"
+          },
+          {
+            "duration": 9.995E-4,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I use an inexistent user id to search for the posts",
+    "steps": [
+      {
+        "name": "I use an inexistent user id to search for the posts",
+        "aggregatedDurations": {
+          "median": 0.0836364,
+          "average": 0.0836364
+        },
+        "durations": [
+          {
+            "duration": 0.0836364,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I use an inexistent post id to search for the posts comments",
+    "steps": [
+      {
+        "name": "I use an inexistent post id to search for the posts comments",
+        "aggregatedDurations": {
+          "median": 1.1619729,
+          "average": 1.1619729
+        },
+        "durations": [
+          {
+            "duration": 1.1619729,
+            "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:48"
           }
         ]
       }

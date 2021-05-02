@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-02T15:13:56.775Z",
+        "start_timestamp": "2021-05-02T18:29:07.821Z",
         "before": [
           {
             "result": {
-              "duration": 433847800,
+              "duration": 446726500,
               "status": "passed"
             },
             "match": {
@@ -15,20 +15,20 @@
             }
           }
         ],
-        "line": 3,
-        "name": "validate if the emails properly formatted",
+        "line": 4,
+        "name": "validate if the emails in the comments are properly formatted",
         "description": "",
-        "id": "validate-the-api-jsonplaceholder;validate-if-the-emails-properly-formatted",
+        "id": "validate-the-api-jsonplaceholder;validate-if-the-emails-in-the-comments-are-properly-formatted",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1029128500,
+              "duration": 989413900,
               "status": "passed"
             },
-            "line": 4,
-            "name": "that I search for the username \"Delphine\" to get its id",
+            "line": 5,
+            "name": "that I search for the username \"Delphine\"",
             "match": {
               "arguments": [
                 {
@@ -42,10 +42,10 @@
           },
           {
             "result": {
-              "duration": 108486500,
+              "duration": 87557200,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I use the id fetched to search for the posts written by the user",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_use_the_id_fetched_to_search_for_the_posts_written_by_the_user()"
@@ -54,9 +54,10 @@
           },
           {
             "result": {
+              "duration": 74278100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I validate if the emails in the comment section are in the proper format",
             "match": {
               "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_validate_if_the_emails_in_the_comment_section_are_in_the_proper_format()"
@@ -64,10 +65,150 @@
             "keyword": "Then "
           }
         ]
+      },
+      {
+        "start_timestamp": "2021-05-02T18:29:09.489Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "validate the username search by an inexistent user",
+        "description": "",
+        "id": "validate-the-api-jsonplaceholder;validate-the-username-search-by-an-inexistent-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60988300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for a inexistent username \"inexistentUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"inexistentUser\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_search_for_a_inexistent_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I receive an empty body response",
+            "match": {
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_receive_an_empty_body()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-02T18:29:09.556Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "validate the post search by an inexistent user id",
+        "description": "",
+        "id": "validate-the-api-jsonplaceholder;validate-the-post-search-by-an-inexistent-user-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83636400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I use an inexistent user id to search for the posts",
+            "match": {
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_use_an_inexistent_user_id_to_search_for_the_posts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I receive an empty body response",
+            "match": {
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_receive_an_empty_body()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-02T18:29:09.645Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "validate the post comment search by an inexistent post id",
+        "description": "",
+        "id": "validate-the-api-jsonplaceholder;validate-the-post-comment-search-by-an-inexistent-post-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1161972900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I use an inexistent post id to search for the posts comments",
+            "match": {
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_use_an_inexistent_post_id_to_search_for_the_posts_comments()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I receive an empty body response",
+            "match": {
+              "location": "stepDefinitions.ApiJsonPlaceholder_steps.i_receive_an_empty_body()"
+            },
+            "keyword": "Then "
+          }
+        ]
       }
     ],
     "name": "Validate the API Jsonplaceholder",
-    "description": "",
+    "description": "  Validate the comments for the post made by a specific user.",
     "id": "validate-the-api-jsonplaceholder",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/APIJsonplaceholder.feature",

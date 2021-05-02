@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.723">
-    <testcase classname="Validate the API Jsonplaceholder" name="validate if the emails properly formatted" time="1.609">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="3.122">
+    <testcase classname="Validate the API Jsonplaceholder" name="validate if the emails in the comments are properly formatted" time="1.661">
         <system-out>
-            <![CDATA[Given that I search for the username "Delphine" to get its id...............passed
+            <![CDATA[Given that I search for the username "Delphine".............................passed
 When I use the id fetched to search for the posts written by the user.......passed
 Then I validate if the emails in the comment section are in the proper format.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate the API Jsonplaceholder" name="validate the username search by an inexistent user" time="0.062">
+        <system-out>
+            <![CDATA[When I search for a inexistent username "inexistentUser"....................passed
+Then I receive an empty body response.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate the API Jsonplaceholder" name="validate the post search by an inexistent user id" time="0.086">
+        <system-out>
+            <![CDATA[When I use an inexistent user id to search for the posts....................passed
+Then I receive an empty body response.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate the API Jsonplaceholder" name="validate the post comment search by an inexistent post id" time="1.163">
+        <system-out>
+            <![CDATA[When I use an inexistent post id to search for the posts comments...........passed
+Then I receive an empty body response.......................................passed
 ]]>
         </system-out>
     </testcase>
