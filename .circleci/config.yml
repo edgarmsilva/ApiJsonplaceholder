@@ -8,7 +8,6 @@ workflows:
     jobs:
       - maven/test
 jobs:
-  build:
     steps:
       - run: mvn test
       - store_artifacts:
