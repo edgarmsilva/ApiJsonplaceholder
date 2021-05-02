@@ -7,6 +7,19 @@ workflows:
   maven_test:
     jobs:
       - maven/test
-    
+
 steps:
-  - run: mvn test
+  -
+  - run:
+      - name: Running API JsonPlaceholder Automation Tests
+      - command: |
+        mkdir /tmp/artifacts;
+        mvn test
+
+
+  - store_artifacts:
+      path: /tmp/artifacts
+      destination: ApiJsonplaceholder
+
+  - store_artifacts:
+      path: /tmp/artifacts
