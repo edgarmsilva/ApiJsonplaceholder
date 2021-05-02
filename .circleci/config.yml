@@ -7,8 +7,10 @@ workflows:
   maven_test:
     jobs:
       - maven/test
-jobs:
-    steps:
-      - run: mvn test
-      - store_artifacs:
-          path: target
+
+steps:
+  - run:
+      - name: Running API JsonPlaceholder Automation Tests
+      - command: mvn test
+      - store_artifacts:
+        path: target
