@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.729">
-    <testcase classname="Validate the API Jsonplaceholder" name="validate if the emails properly formatted" time="2.517">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.723">
+    <testcase classname="Validate the API Jsonplaceholder" name="validate if the emails properly formatted" time="1.609">
         <system-out>
             <![CDATA[Given that I search for the username "Delphine" to get its id...............passed
 When I use the id fetched to search for the posts written by the user.......passed
