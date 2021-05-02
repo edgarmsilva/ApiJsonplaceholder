@@ -5,12 +5,12 @@
       {
         "name": "that I search for the username \"Delphine\" to get its id",
         "aggregatedDurations": {
-          "median": 1.9621529,
-          "average": 1.9621529
+          "median": 1.4207064,
+          "average": 1.4207064
         },
         "durations": [
           {
-            "duration": 1.9621529,
+            "duration": 1.4207064,
             "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I use the id fetched to search for the posts written by the user",
         "aggregatedDurations": {
-          "median": 0.0810017,
-          "average": 0.0810017
+          "median": 0.0939713,
+          "average": 0.0939713
         },
         "durations": [
           {
-            "duration": 0.0810017,
+            "duration": 0.0939713,
             "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:5"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "I validate if the emails in the comment section are in the proper format",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 9.993E-4,
+          "average": 9.993E-4
         },
         "durations": [
           {
-            "duration": 0.0,
+            "duration": 9.993E-4,
             "location": "file:///D:/Edgar/estudos/APIJsonPlaceholder/src/test/resources/features/APIJsonplaceholder.feature:6"
           }
         ]

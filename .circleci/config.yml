@@ -7,13 +7,9 @@ workflows:
   maven_test:
     jobs:
       - maven/test
-
-steps:
-  - run:
-      - name: Running API JsonPlaceholder Automation Tests
-      - command |
-        mvn test
-
-  - store_artifacts:
-      path: target/cucumber-reports/Cucumber.xml
-      destination: Cucumber.xml
+jobs:
+  build:
+    steps:
+      - run: mvn test
+      - store_artifacts:
+          path: target
