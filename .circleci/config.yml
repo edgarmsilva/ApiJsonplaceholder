@@ -9,7 +9,6 @@ workflows:
       - maven/test
 
 steps:
-  -
   - run:
       - name: Running API JsonPlaceholder Automation Tests
       - command: mvn test
