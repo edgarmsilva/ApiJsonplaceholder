@@ -3,7 +3,7 @@ Designed by Edgar Silva
 
 April, 2021
 
-This Automation was designed from scratch for test the provided in  https://jsonplaceholder.typicode.com/
+This Automation was designed from scratch for test the provided APÌ in  https://jsonplaceholder.typicode.com/
 
 ###Requirements:
 - Java 11+
