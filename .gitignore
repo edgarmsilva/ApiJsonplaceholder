@@ -1,1 +1,3 @@
 /target/jacoco.exe
+.idea/
+target/
