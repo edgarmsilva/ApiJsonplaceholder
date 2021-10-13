@@ -16,9 +16,7 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber-reports/Cucumber.xml"}
         , features = {"src/test/resources/features/"}
         , glue = {"stepDefinitions"}
-        , monochrome = false
-        , publish = false
-//        , tags = "@test"
+//        , tags = "@testes"
 )
 
 public class TestRunner {

@@ -17,6 +17,7 @@ public class ApiJsonPlaceholder_steps {
 
     @Given("that I search for the username {string}")
     public void that_i_search_for_the_username(String username) {
+        
         userResponse = GetUser(username);
         Assert.assertEquals(username, userResponse[0].username);
         userNameId = userResponse[0].id;
