@@ -18,9 +18,9 @@ public class Jsonplaceholder {
         return response.getBody().as(UsersResponse[].class);
     }
 
-    public static PostsResponse[] GetUserPostsIds(Integer id) {
+    public static PostsResponse[] GetUserPostsIds(Integer userId) {
         RequestSpecification httpRequest = RestAssured.given().spec(api_jsonplaceholder);
-        response = httpRequest.get("/posts?userId=" + id);
+        response = httpRequest.get("/posts?userId=" + userId);
         return response.getBody().as(PostsResponse[].class);
     }
 
@@ -42,7 +42,7 @@ public class Jsonplaceholder {
         return commentEmails;
     }
 
-    public static PostComments[] GetUserPostsComments(ArrayList<Integer> postId) {
+    public static PostComments[] GetUserPostComments(ArrayList<Integer> postId) {
         RequestSpecification httpRequest = RestAssured.given().spec(api_jsonplaceholder);
         response = httpRequest.get("/comments?postId=" + postId);
         httpRequest.log().all();
