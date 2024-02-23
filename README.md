@@ -21,3 +21,6 @@ To run all tests from command console:
 ```
 mvn test
 ```
+
+## UPDATE 22/02/2024
+A pipeline para esse projeto foi configurada e executa toda vez que houver um commit na branch Main
