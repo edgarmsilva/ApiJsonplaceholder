@@ -25,7 +25,6 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-        architeture: x64
         cache: maven
     - name: Run with Maven
       run: mvn clean test
