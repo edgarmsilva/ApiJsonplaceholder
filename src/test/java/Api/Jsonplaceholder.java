@@ -35,7 +35,7 @@ public class Jsonplaceholder {
                 if (validateEmail(eachComment.email)) {
                     commentEmails.add(eachComment.email);
                 } else {
-                    System.out.println("The Email: " + eachComment.email + "From comment ID No." + eachComment.id + " is not a valid Email.");
+                    System.out.println("The Email: " + eachComment.email + " From comment ID No." + eachComment.id + " is not a valid Email.");
                 }
             }
         }
