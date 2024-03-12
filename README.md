@@ -39,3 +39,8 @@ mvn clean test
 ### UPDATE 22/02/2024
 
 The pipeline for this project was configured with Github Actions to run on every pull request made on main branch
+
+## Report Page:
+After the test job finishes, a report page will be available ate the address below:
+
+https://edgarmsilva.github.io/ApiJsonplaceholder_Java/
